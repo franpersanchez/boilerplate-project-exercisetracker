@@ -16,7 +16,11 @@
         <input id="uname" type="text" name="username" placeholder="username" />
         <input type="submit" value="Submit" />
       </form>
-      <form id="exercise-form" method="post">
+
+
+
+      
+      <form id="exercise-form" method="post">        
         <h3>Add exercises</h3>
         <p><code>POST /api/users/:_id/exercises</code></p>
         <input id="uid" type="text" name=":_id" placeholder=":_id" />
@@ -32,6 +36,7 @@
       <p><strong>[ ]</strong> = optional</p>
       <p><strong>from, to</strong> = dates (yyyy-mm-dd); <strong>limit</strong> = number</p>
     </div>
+    
     <script>
       const exerciseForm = document.getElementById("exercise-form");
 
