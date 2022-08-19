@@ -1,3 +1,4 @@
+//exercise from FreeCodeCamp Back End curriculum
 const express = require('express')
 const app = express()
 const cors = require('cors')
